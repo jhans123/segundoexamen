@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>examen</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script
+	  src="https://code.jquery.com/jquery-2.2.4.js"
+	  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	  crossorigin="anonymous"></script>
+	<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
+<script type="text/javascript" src="js/equalcolumns.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script  src="js/app.js"></script>
+</head>
+<body>
+
+		
+
+<div class="container">
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" ><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOSPEDAJE EL SECRETO</a>
+    </div>
+
+   
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="reservas.html">RESERVAS</a></li>
+        <li><a href="contactenos.html">CONTACTENOS</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <div class="group">
+  <form action="registrohabi.php" method="POST">
+  <h2><em>Formulario de Reservas</em></h2>
+      <label for="idhabitacion">NOMBRES:</label>
+      <input type="text         " />   
+      
+      <label for="numero">APELLIDOS: </label>
+      <input type="text   "/>             
+      
+      <label for="numerocamas">CORREO G-mail:<span><em>(requerido)</em></span></label>
+      <input type="text"  />
+
+      <label for="descripcion">HORA<span><em>(requerido)</em></span></label>
+      <input type="text" />
+
+      <label for="fktipo">NUMERO DE HABITACION<span><em>(requerido)</em></span></label>
+      <input type="text"  />
+<br>
+<br>
+     <button type="button" class="btn btn-inverse">REGISTRAR</button>
+     
+    </p>
+  </form>
+
+
+</div>
+<br>
+<br>
+ <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Panel Registros</div>
+  <div class="panel-body">
+    <p></p>
+  </div>
+
+  <!-- Table -->
+  <table class="table">
+
+<tr>
+ <th>NOMBRES</th>
+ <th>APELLIDOS</th>
+ <th>CORREO G-mail</th>
+ <th>HORA</th>
+ <th>NUMERO DE HABITACION</th>
+</tr>
+ 
+<tr>
+  <td>Elena</td>
+  <td>Cardenas</td>
+  <td>elena@gmail.com</td>
+  <td>8:00PM</td>
+  <td>3</td>
+
+
+</tr>
+
+<tr>
+  
+  <td>Juan</td>
+  <td>Cuadros</td>
+  <td>juan@gmail.com</td>
+  <td>10:00PM</td>
+  <td>6</td>
+
+</tr>
+
+<tr>
+  
+  <td>Eduardo</td>
+  <td>rojas</td>
+  <td>Erojas@gmail.com</td>
+  <td>2:00PM</td>
+  <td>7</td>
+
+</tr>
+
+<tr>
+  
+  <td>Carlos</td>
+  <td>Quispe</td>
+  <td>quispe@gmail.com</td>
+  <td>4:00PM</td>
+  <td>19</td>
+
+</tr>
+ 
+
+  </table>
+</div>
+<button type="button" class="btn btn-inverse">Actualizar</button>
+
+<br>
+<br>
+<br>
+
+   </div>
+
+</body>
+
+
+</html>
